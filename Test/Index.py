@@ -1,0 +1,8 @@
+a= input("Enter the name : ")
+b= input("Enter the surname : ")
+c= input("Enter your Email : ")
+d= input("Enter your password : ")
+k= print("your profile--")
+e= print(a+" "+b)
+g=print(c)
+h=print(d)

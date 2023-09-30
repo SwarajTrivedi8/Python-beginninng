@@ -1,0 +1,7 @@
+a=int(input("Enter the co efficient of x^2 a: "))
+b=int(input("Enter the co efficient of x b: "))
+c=int(input("Enter the constant c: "))
+x=(-b+(b**2-4*a*c)**1/2)/(2*a)
+g=(-b-(b**2-4*a*c)**1/2)/(2*a)
+k=print("first root is: ",x)
+j=print("second root is: ",g)
