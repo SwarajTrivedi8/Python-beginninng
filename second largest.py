@@ -1,8 +1,4 @@
-a=[]
-n=int(input("Enter the no og elements: "))
-for i in range(n):
-    k=int(input("Enter the elements: "))
-    a.append(k)
+a=[5,7,55,8,99,99 ]
 b=set(a)
 m=max(b)
 d=b.remove(m)
