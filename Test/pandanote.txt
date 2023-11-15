@@ -1,0 +1,3 @@
+Panda used for data handling.
+series as column.
+tabular as rows and column
