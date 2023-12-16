@@ -9,5 +9,3 @@ while s<=n:
     a=b
     b=s
     s=a+b
-
-

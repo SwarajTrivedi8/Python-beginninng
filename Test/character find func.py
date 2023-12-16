@@ -1,4 +1,4 @@
 import string
 a="banana"
-b=a.find("na",0,4)
+b=a.find("na")
 print(b)

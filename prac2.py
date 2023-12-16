@@ -1,10 +1,8 @@
 import numpy as np
 N=list(map(int,input().split(" ")))
 M=list(map(int,input().split(" ")))
-a=np.array([M,N])
+
+a=np.array([N,M])
 s=np.sum(a,axis=1)
-b=np.array([M,s])
-c=np.transpose(b)
-d=b.flatten()
-print(c)
-print(d)
+p=np.prod(s,axis=0)
+print(p)
