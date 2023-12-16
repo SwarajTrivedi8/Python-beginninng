@@ -1,6 +1,8 @@
-a=int(input("Enter the mobile no.1: "))
-b=9415482510
-if a==b:
-    print("mobile no. is valid")
-else:
-    print("Invalid mobile no.")
+import numpy as np
+N=list(map(int,input().split(" ")))
+M=list(map(int,input().split(" ")))
+
+a=np.array([N,M])
+s=np.sum(a,axis=1)
+p=np.prod(s,axis=0)
+print(p)
